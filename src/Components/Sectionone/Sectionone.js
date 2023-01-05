@@ -39,11 +39,10 @@ class Sectionone extends Component {
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
+      <div class="accordion-body bluea">
       <ul>
             <li> Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
             <li>Sed do eiusmod tempor incididunt ut</li>
-            
         </ul>
       </div>
     </div>
