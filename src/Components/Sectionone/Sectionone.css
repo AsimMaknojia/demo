@@ -128,7 +128,7 @@ background: #f15614;
 }
   .accordion-button:focus{
     border-color: 0;
-    box-shadow: none !important;
+    box-shadow: none;
   }
   .orange{
   background: #f15614 !important;
