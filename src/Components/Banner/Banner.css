@@ -1,0 +1,32 @@
+.Banner{
+    background-image: url(C:\Users\Dell\Desktop\demo\public\Rectangle 401.png);
+    padding: 290px 50px 200px;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top:-100px;
+}
+.Banner h1{
+    font-size: 66px;
+    line-height: 74px;
+    color:#fff;
+    padding-right:600px;
+}
+.Banner h2 {
+    background-color: rgb(52, 43, 126);
+    font-size: 66px;
+    line-height: 74px;
+    color: #fff;
+    margin-right: 669px;
+    padding: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Banner h5 {
+    font-size: 18px;
+    line-height: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}

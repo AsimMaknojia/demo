@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1.navbar-logo {
+  color: #fff;
+  padding: 25px 25px;
+}
+.col-md-4 {
+  width: 33.33% !important;
+  float: left;
+  text-align: left;
+}
+.col-md-8 {
+  width: 67% !important;
+}
+.menu-icon ul li {
+  float: left;
+  padding: 30px 20px;
+  list-style: none;
+}
+.menu-icon ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.getaquote-button{
+  padding-right: 25px;
+}
+.getaquote-button button a {
+  text-decoration: none;
+  color: #000;
+}
+.getaquote-button button {
+  background: #fff;
+  border: 0;
+  padding: 15px 69px;
+  border-radius: 30px;
+  float: right;
+  margin-top: 16px;
+}
+.logo {
+  padding: 9px 25px;
+}
+.logo img {
+  width: 70%;
+  display: block;
+}
