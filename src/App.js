@@ -5,6 +5,8 @@ import Navbar from './Components/Navbar/Navbar';
 import './App.css';
 import Banner from './Components/Banner/Banner';
 import Sectionone from './Components/Sectionone/Sectionone';
+import Slidersection from './Components/Slidersection/Slidersection';
+import Footer from './Components/Footer/Footer';
 // import Sectionone from './Components/Sectionone/Sectionone';
 
 function App() {
@@ -13,7 +15,8 @@ function App() {
      <Navbar/>
      <Banner/>
      <Sectionone/>
-     {/* <Sectionone/> */}
+     <Slidersection/>
+     <Footer/>
     </div>
   );
 }

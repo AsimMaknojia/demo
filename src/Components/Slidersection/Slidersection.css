@@ -1,0 +1,14 @@
+.carousel-caption {
+    top: 40%;
+}
+.carousel-caption h5 {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: bold;
+}
+.carousel-caption p {
+    font-size: 30px;
+    line-height: 40px;
+    width: 70%;
+    margin: auto;
+}
