@@ -7,7 +7,7 @@ class Navbar extends Component {
 <div className=''>
             <nav className='NavbarItems p-5'>
                 <div className='col-md-4 logo'>
-                <a href="http://localhost:3001/"><img src={require('.//img/Group-188.png')} alt="" /></a>    
+                <a href="/"><img src={require('.//img/Group-188.png')} alt="" /></a>    
                     {/* <h1 className='navbar-logo'>React<i className='fab fa-react'></i></h1> */}
                 </div>
                 <div className='col-md-4 menu-icon'>

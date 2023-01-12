@@ -8,7 +8,7 @@ class Footer extends Component {
 <div className='footersection'>
 <div className='container'>
             <div className='logo-image text-center'>
-            <a href='http://localhost:3001/'><img src={require('.//img/dropshipping.png')} alt="" /></a>
+            <a href='/'><img src={require('.//img/dropshipping.png')} alt="" /></a>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <div class="footer_copy">
