@@ -14,7 +14,7 @@ class Slidersection extends Component {
   <div class="carousel-inner">
     <div class="carousel-item active">
       {/* <img src="..." class="d-block w-100" alt="..."> */}
-      <img src={require('.//img/Rectangle401.png')} alt="" />
+      <img src={require('.//img/bannerslider.png')} alt="" />
       <div class="carousel-caption d-none d-md-block">
         <h5>3 Suppliers Integration</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Some representative placeholder content for the first slide.</p>
@@ -30,7 +30,7 @@ class Slidersection extends Component {
     </div>
     <div class="carousel-item">
       {/* <img src="..." class="d-block w-100" alt="..."> */}
-      <img src={require('.//img/Rectangle401.png')} alt="" />
+      <img src={require('.//img/bannerslider.png')} alt="" />
       <div class="carousel-caption d-none d-md-block">
       <h5>1 Suppliers Integration</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Some representative placeholder content for the first slide.</p>
