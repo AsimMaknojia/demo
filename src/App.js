@@ -1,25 +1,34 @@
 import React from 'react';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import { Router } from 'react-router-dom';
+// import { Routes } from 'react-router-dom';
+// import { Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Navbar from './Components/Navbar/Navbar';
 import './App.css';
-// import Banner from './Components/Banner/Banner';
-// import Sectionone from './Components/Sectionone/Sectionone';
-// import Slidersection from './Components/Slidersection/Slidersection';
 import Footer from './Components/Footer/Footer';
 import Homepage from './Components/Pages/Homepage';
-// import Sectionone from './Components/Sectionone/Sectionone';
+import Contactpage from './Components/Pages/Contactpage';
+import Servicespage from './Components/Pages/Servicespage';
+import Getaquotepage from './Components/Pages/Getaquotepage';
+import Aboutpage from './Components/Pages/Aboutpage';
 
 function App() {
   return (
     <div className="App">
+     {/* <Router> */}
      <Navbar/>
-     <Homepage/>
-     {/* <Banner/> */}
-     {/* <Sectionone/> */}
-     {/* <Slidersection/> */}
+    {/* <Routes>
+    <Route exact path="/" element={<Homepage /> } />  */}
+       <Homepage/>
+     <Aboutpage/>
+     <Contactpage/>
+     <Servicespage/>
+     <Getaquotepage/>
+     {/* </Routes> */}
      <Footer/>
-     
+      {/* </Router> */}
     </div>
   );
 }
