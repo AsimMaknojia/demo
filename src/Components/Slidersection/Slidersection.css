@@ -1,5 +1,5 @@
 .carousel-caption {
-    top: 40%;
+    top: 20%;
 }
 .carousel-caption h5 {
     font-size: 70px;
@@ -11,4 +11,7 @@
     line-height: 40px;
     width: 70%;
     margin: auto;
+}
+.carousel-inner {
+    height: 500px;
 }
