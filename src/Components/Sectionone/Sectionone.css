@@ -160,7 +160,8 @@ background: #f15614;
 }
 .accordion-body ul li:before {
     content: "";
-    background: url(http://localhost:3000/Path-889.png);
+    background-image: url(C:\Users\Dell\Desktop\demo\public\Path-889.png);
+    /* background: url(http://localhost:3000/Path-889.png); */
     width: 22px;
     height: 16px;
     position: absolute;
@@ -168,7 +169,8 @@ background: #f15614;
 }
 .bluea ul li:before {
     content: "";
-    background: url(http://localhost:3000/path-893.png) !important;
+    background-image: url(C:\Users\Dell\Desktop\demo\public\path-893.png) !important;
+    /* background: url(http://localhost:3000/path-893.png) !important; */
     width: 25px;
     height: 25px;
     position: absolute;
