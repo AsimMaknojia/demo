@@ -1,4 +1,4 @@
-.Banner{
+.Banners{
     background-image: url(C:\Users\Dell\Desktop\demo\public\Rectangle401.png);
     padding: 290px 50px 200px;
     background-size: cover;
@@ -10,14 +10,14 @@
     font-size: 66px;
     line-height: 74px;
     color:#fff;
-    padding-right:600px;
+    padding-right:500px;
 }
 .Banner h2 {
     background-color: rgb(52, 43, 126);
     font-size: 66px;
     line-height: 74px;
     color: #fff;
-    margin-right: 509px;
+    margin-right: 400px;
     padding: 18px;
     margin-top: 20px;
     margin-bottom: 20px;

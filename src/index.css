@@ -33,7 +33,7 @@ h1.navbar-logo {
   color: #fff;
 }
 .getaquote-button{
-  padding-right: 25px;
+  padding-right: 0px;
 }
 .getaquote-button button a {
   text-decoration: none;
@@ -42,13 +42,13 @@ h1.navbar-logo {
 .getaquote-button button {
   background: #fff;
   border: 0;
-  padding: 15px 69px;
+  padding: 15px 50px;
   border-radius: 30px;
   float: right;
   margin-top: 16px;
 }
 .logo {
-  padding: 9px 25px;
+  padding: 9px 0px;
 }
 .logo img {
   width: 70%;
