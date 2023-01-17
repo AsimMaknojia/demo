@@ -24,7 +24,7 @@ class Navbar extends Component {
                 </ul>
                 </div>
                 <div className='col-md-4 getaquote-button'>
-                <a href="#"><button>Get a Quote</button></a>
+                <a href="/"><button>Get a Quote</button></a>
                     </div>
             </nav>
             </div>

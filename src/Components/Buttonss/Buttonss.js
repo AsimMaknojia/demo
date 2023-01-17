@@ -5,17 +5,16 @@ class Buttonss extends Component {
     render(){
         return(
 <div className=''>
-<h1 style="text-align:center">Calculator App</h1>
+{/* <h1>Calculator App</h1>
 
     <div class="container">
 
-    <br>
 
     <table>
 
         <tr>
 
-            <td colspan="3"><input type='text' id='result' class ='screen' style="text-align: right;"></td>
+            <td colspan="3"><input type='text' id='result' class ='screen' /></td>
 
             <td>
 
@@ -63,7 +62,7 @@ class Buttonss extends Component {
 
 </div> 
 
-</div>
+</div> */}
 </div>
 
         )

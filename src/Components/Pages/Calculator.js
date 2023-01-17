@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import './Button.css';
+import './Calculator.css';
 
-class Buttons extends Component {
+class Calculator extends Component {
 render(){
 return(
     <div className='container'>
-        <h1>Calculator App</h1>
+
+         <h1>Calculator App</h1>
         <table>
             <tr>
                 <td colspan="3">
@@ -35,9 +36,8 @@ return(
             <input type="button" value= "=" className='button equal-sign' onClick={window['solve']}></input>
             <input type="button" value="+" className='operator' onClick="display('+')"></input>
         </div> 
-      
     </div>
     )   
 }
 }
-export default Buttons
+export default Calculator
