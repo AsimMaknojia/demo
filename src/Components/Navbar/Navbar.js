@@ -5,7 +5,7 @@ class Navbar extends Component {
     render(){
         return(
 <div className='container'>
-            <nav className='NavbarItems p-5'>
+            <nav className='NavbarItems'>
                 <div className='col-md-4 logo'>
                 <a href="/"><img src={require('.//img/Group-188.png')} alt="" /></a>    
                     {/* <h1 className='navbar-logo'>React<i className='fab fa-react'></i></h1> */}
