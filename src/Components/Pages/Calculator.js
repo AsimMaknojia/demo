@@ -7,7 +7,7 @@ class Calculator extends Component {
         return(
             <div className='container'>
 
-                <h1>Calculator Appssss</h1>
+                <h1>Calculator App</h1>
                 <table>
                     <tr>
                         <td colspan="3">
