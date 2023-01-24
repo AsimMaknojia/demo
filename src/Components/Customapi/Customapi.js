@@ -2,10 +2,6 @@ import React, {useEffect, useState} from 'react';
 import './Customapi.css';
 
 function Customapi(){
-// return(
-//     <div className=''>
-        
-//     </div>    ) 
 const [user, setUser] = useState([]);
 
   const fetchData = () => {
@@ -20,6 +16,7 @@ const [user, setUser] = useState([]);
 
   return (
     <main>
+        <div className='container'>
       <h1>User List</h1>
       <ul>
         {user && user.length > 0 && user.map((userObj, index) => (
@@ -29,6 +26,7 @@ const [user, setUser] = useState([]);
             <li key={userObj.id}>{userObj.email}</li>
           ))}
       </ul>
+      </div>
     </main>
   );  
 }
